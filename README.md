@@ -262,6 +262,4 @@ Process finished with exit code 0
 
 The MongoDB interactive menu was also tested successfully, including course filtering, GPA filtering, combined filtering, input validation, and normal exit.
 
-## Submission Notes
 
-Include the Scala source files, `build.sbt`, required sbt configuration, input CSV, and any requested evidence/output. Keep `output/students.json` available for Spark Option B. Include the Parquet output directory if generated results are part of the submission. IDE caches and compiled artifacts (`.idea/`, `.bsp/`, `target/`) can generally be excluded.
