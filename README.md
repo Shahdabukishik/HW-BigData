@@ -246,20 +246,5 @@ Spark reads the Parquet directory back, displays all five course rows, and verif
 
 Both systems produce matching results for the equivalent filtering questions. MongoDB is appropriate for indexed retrieval of specific student records; Spark SQL is more convenient for multi-step analysis and per-course summaries. This assignment does **not** benchmark query execution times, so it does not establish a measured speed advantage for either system.
 
-## Verified Execution
-
-The completed Spark SQL run reported:
-
-```text
-Total students: 100
-Course 103 students: 36
-Students with GPA > 3.5: 49
-Total enrollments: 218
-Total courses: 5
-All Spark SQL tasks completed successfully!
-Process finished with exit code 0
-```
-
-The MongoDB interactive menu was also tested successfully, including course filtering, GPA filtering, combined filtering, input validation, and normal exit.
 
 
